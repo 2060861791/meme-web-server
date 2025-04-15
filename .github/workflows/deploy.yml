@@ -2,7 +2,7 @@ name: Auto Deploy
 
 on:
   push:
-    branches: [main] # 可根据你的主分支名称调整，如master
+    branches: [master] # 可根据你的主分支名称调整，如master
 
 jobs:
   deploy:
