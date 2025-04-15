@@ -1,0 +1,30 @@
+{
+  "name": "template-server",
+  "version": "1.0.0",
+  "description": "模板网站后端服务",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "init-db": "node scripts/init-db.js",
+    "setup": "node scripts/setup.js",
+    "init-admin": "node scripts/init-admin.js"
+  },
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "@koa/multer": "^3.0.2",
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.0",
+    "koa": "^2.14.0",
+    "koa-bodyparser": "^4.4.0",
+    "koa-jwt": "^4.0.4",
+    "koa-router": "^12.0.0",
+    "koa-static": "^5.0.0",
+    "mongoose": "^7.0.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

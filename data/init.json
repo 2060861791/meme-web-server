@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    }
+  ],
+  "works": [
+    {
+      "title": "企业官网模板",
+      "thumbnail": "/images/work1.jpg",
+      "features": ["响应式", "jQuery", "轮播"],
+      "price": 45,
+      "pages": 5,
+      "theme": "企业官网"
+    },
+    {
+      "title": "电商网站模板",
+      "thumbnail": "/images/work2.jpg", 
+      "features": ["响应式", "表单", "下拉"],
+      "price": 55,
+      "pages": 8,
+      "theme": "电商网站"
+    }
+  ]
+} 
