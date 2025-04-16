@@ -23,4 +23,4 @@ jobs:
 
       - name: Deploy to server
         run: |
-          ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "sudo -i bash -c 'cd /root/server && git pull origin master && pm2 restart app'"
+          ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "sudo -i bash -c 'cd /root/server && git pull origin main && pm2 restart app'"
